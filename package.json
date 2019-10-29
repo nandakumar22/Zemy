@@ -1,0 +1,46 @@
+{
+  "name": "Zemy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^2.1.0",
+    "native-base": "^2.13.5",
+    "react": "16.9.0",
+    "react-native": "0.61.2",
+    "react-native-elements": "^1.1.0",
+    "react-native-keyboard-aware-scrollview": "^2.0.0",
+    "react-native-maps": "^0.25.0",
+    "react-native-maps-directions": "^1.7.3",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-paper": "^3.0.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-sliding-up-down-panel": "^1.0.0",
+    "react-native-sliding-up-down-panels": "^1.0.0",
+    "react-native-swipe-cards": "^0.1.1",
+    "react-native-vector-icons": "^6.6.0",
+    "rn-bottom-drawer": "^1.4.3",
+    "rn-country-picker-modal": "^1.0.2",
+    "rn-sliding-up-panel": "^2.3.3",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/runtime": "^7.6.3",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
